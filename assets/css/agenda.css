@@ -1,0 +1,11 @@
+.agenda{
+    background: #EDEFF1;
+    margin-top: 73px;
+}
+.agenda-dia{
+    width: 98%;
+    margin: 0 auto;
+}
+.agenda-dia-title{
+    text-align: center;
+}
