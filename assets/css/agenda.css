@@ -17,7 +17,11 @@
 }
 .agenda-dia-title .material-icons{
     color: #1196cf;
+    cursor: pointer;
 }
 .agenda-dia-title time{
     font-size: 14px;
+}
+.agenda-dia:first-child .evento>td:nth-child(2){
+    width: 125px;
 }

@@ -2,9 +2,27 @@ body{
     font-family: 'News Gothic';
     background: #EDEFF1;
 }
-.autorImagem>img {
-    width: 40px;
-    border-radius: 50%;
-    float: left;
-    margin-right: 5px;
+.evento .material-icons.checked{
+    color: #3D7740;
+    font-size: 34px;
+}
+
+.label{
+    padding: 5px 6px;
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 2px;
+    background: black;
+    font-weight: bold;
+}
+.label-red{
+    background: #b71c19;
+    border: #8A2827;
+    text-transform: initial;
+}
+.label-yellow{
+    background: #ed6c01;
+    border: #d67220;
+    text-transform: initial;
 }

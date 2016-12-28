@@ -4,14 +4,80 @@
     border: 1px solid #ccc;
     border-bottom: 2px solid #ccc;  
     border-radius: 0 0 1px 1px;
+    border-top: none;
     box-shadow: 0 1px 0 #dadada;
 }
 .evento>td{
+    padding: 10px 0;
+    vertical-align: middle;
     border-bottom: 1px solid #ccc;
 }
 .evento:last-child>td{
     border-bottom: none;
 }
-.eventos{
+.evento>td:nth-child(1){
+    width: 100px;
+    text-align: right;
+}
+.evento>td:nth-child(2){
+    width: 100px;
+    text-align: center;
+}
+.evento>td:nth-child(3){
+    max-width: 70%;
+    text-align: left;
+}
+.evento>td:nth-child(4){
+    max-width: 150px;
+    text-align: left;
+}
 
+.evento>td:nth-child(5){
+    width: 212px;
+    text-align: left;
+}
+.evento-time{
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.evento .material-icons{
+    color: #d9d9d9; 
+    cursor: default;
+}
+.evento .material-icon-active{
+    color: #979797; 
+    cursor: pointer;
+}
+.evento .material-icon-active:hover{
+    color: black;
+}
+.evento-info h3{
+     font-size: 17px;
+     font-weight: bolder;
+}
+.evento-info h4{
+    margin-bottom: 10px;
+     font-size: 13px;
+     color:#7d7c7c;
+}
+.autorImagem>img {
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+}
+.autorImagem>figcaption{
+    display: -webkit-inline-box;
+}
+.autorImagem-nome{
+    position: relative;
+    top: -17px;
+    line-height: 1;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.evento-actions>button{
+    padding:0 2px;
 }
