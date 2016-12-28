@@ -1,3 +1,10 @@
 body{
-    font-family: 'News-Gothic';
+    font-family: 'News Gothic';
+    background: #EDEFF1;
+}
+.autorImagem>img {
+    width: 40px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 5px;
 }

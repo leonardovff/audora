@@ -22,11 +22,13 @@
   -webkit-font-smoothing: antialiased;
 }
 @font-face {
-	font-family: 'News-Gothic';
-	src: url('fonts/News-Gothic.eot');
-	src: url('fonts/News-Gothic.eot?#iefix') format('embedded-opentype'),
-		url('fonts/News-Gothic.woff') format('woff'),
-		url('fonts/News-Gothic.ttf') format('truetype');
+	font-family: 'News Gothic';
+	src: url('fonts/NewsGothic.eot');
+	src: url('fonts/NewsGothic.eot?#iefix') format('embedded-opentype'),
+		url('fonts/NewsGothic.woff2') format('woff2'),
+		url('fonts/NewsGothic.woff') format('woff'),
+		url('fonts/NewsGothic.ttf') format('truetype'),
+		url('fonts/NewsGothic.svg#NewsGothic') format('svg');
 	font-weight: 100;
-	font-style: italic;
+	font-style: normal;
 }

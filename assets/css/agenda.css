@@ -7,5 +7,17 @@
     margin: 0 auto;
 }
 .agenda-dia-title{
+    padding: 40px 0 16px;
     text-align: center;
+}
+.agenda-dia-title h2{
+    font-size: 25px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+.agenda-dia-title .material-icons{
+    color: #1196cf;
+}
+.agenda-dia-title time{
+    font-size: 14px;
 }
