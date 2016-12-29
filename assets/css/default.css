@@ -26,3 +26,21 @@ body{
     border: #d67220;
     text-transform: initial;
 }
+.tooltip{
+    display: inline;
+    position: relative;
+}
+.tooltip:hover:after {
+  content: attr(data-title);
+  padding: 8px 5px;
+  color: white;
+  position: absolute;
+  font-size: 14px;
+  background: black;
+  left: 50%;
+  top: 110%;
+  z-index: 20;
+  border-radius: 2px;
+  white-space: nowrap;
+  transform: translateX(-50%);
+}

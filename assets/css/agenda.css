@@ -1,6 +1,7 @@
 .agenda{
     background: #EDEFF1;
     margin-top: 73px;
+    overflow: auto;
 }
 .agenda-dia{
     width: 98%;

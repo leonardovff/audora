@@ -18,19 +18,19 @@
     <header>
       <nav class="navbar">
         <ul class="navbar-action">
-          <li class="navbar-action-item"><a href="#" title="Carregar conteúdo">
+          <li class="navbar-action-item"><a href="#" class="tooltip" data-title="Hoje">
             <i class="material-icons">refresh</i>
           </a></li>
-          <li class="navbar-action-item"><a href="#" title="Procurar conteúdo">
+          <li class="navbar-action-item"><a href="#" class="tooltip" data-title="Buscar">
              <i class="material-icons">search</i>  
           </a></li>
-          <li class="navbar-action-item"><a href="#" title="Imprimir conteúdo">
+          <li class="navbar-action-item"><a href="#" class="tooltip" data-title="Imprimir">
              <i class="material-icons">print</i>  
           </a></li>
-          <li class="navbar-action-item"><a href="#" title="Calendario">
+          <li class="navbar-action-item"><a href="#" class="tooltip" data-title="Calendário">
             <i class="material-icons">event</i>  
           </a></li>
-          <li class="navbar-action-item"><a href="#" title="Adicionar">
+          <li class="navbar-action-item"><a href="#" class="tooltip" data-title="Novo">
             <i class="material-icons">add</i>    
           </a></li>
         </ul>
@@ -48,7 +48,7 @@
     <main class="agenda">
         <article class="agenda-dia">
           <header class="agenda-dia-title">
-            <h2>HOJE<button title="adicionar"><i class="material-icons">add</i></button></h2>
+            <h2>HOJE<button data-title="Novo" class="tooltip"><i class="material-icons">add</i></button></h2>
             <time datetime="2015-04-20">20 de abril de 2015</time>
           </header>
           <table class="eventos">
@@ -107,7 +107,7 @@
         </article>
         <article class="agenda-dia">
           <header class="agenda-dia-title">
-            <h2>TERÇA<button title="adicionar"><i class="material-icons">add</i></button></h2>
+            <h2>TERÇA<button data-title="Novo" class="tooltip"><i class="material-icons">add</i></button></h2>
             <time datetime="2015-04-20">20 de abril de 2015</time>
           </header>
           <table class="eventos">
@@ -165,5 +165,8 @@
           </table>
         </article>
     </main>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="assets/js/app.js"></script>
   </body>
 </html>

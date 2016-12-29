@@ -26,6 +26,7 @@
 .evento>td:nth-child(3){
     max-width: 70%;
     text-align: left;
+    cursor: pointer;
 }
 .evento>td:nth-child(4){
     max-width: 150px;
