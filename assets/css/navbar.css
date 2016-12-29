@@ -1,5 +1,6 @@
 .navbar{
     position: fixed;
+    z-index: 100;
     top: 0;
     left: 0;
     width: 100%;
@@ -44,7 +45,7 @@
     vertical-align: text-bottom;
     margin-left: 6px;
 }
-
+active
 .navbar-drop-item { position: relative; }
 
 .sub-menu { 

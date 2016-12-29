@@ -21,7 +21,6 @@ app = {
                     target = target.parentNode;
                 }
             }
-            console.log(target);
             if(target.className == "navbar-drop-open"){
                if(target.className.indexOf("active")==-1){
                     target.parentNode.className += " active";
