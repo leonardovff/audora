@@ -10,10 +10,10 @@
 .evento>td{
     padding: 10px 0;
     vertical-align: middle;
-    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
 }
-.evento:last-child>td{
-    border-bottom: none;
+.evento:first-child>td{
+    border-top: none;
 }
 .evento>td:nth-child(1){
     width: 100px;
@@ -64,6 +64,7 @@
 }
 .autorImagem>img {
     height: 50px;
+    width: 50px;
     border-radius: 50%;
     display: inline-block;
     margin-right: 5px;

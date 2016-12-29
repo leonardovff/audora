@@ -10,8 +10,15 @@ app = {
     init: function(){
         app.setEvents();
     },
+    removeToogle: function(el){
+        el.className = "toogle";
+    },
+    addToogle: function(el){
+        el.className += " toogleshow";
+    },
     setEvents: function(){
         get.item("body").addEventListener('click', function(e) {
+            //MENU DROP DOWN ACTIONS
             get.all(".navbar-drop-item.active").forEach(function(arr){
                 arr.className = "navbar-drop-item";
             });
@@ -27,6 +34,22 @@ app = {
                 } 
             }
         }); 
+        get.all('.evento-info').forEach(function(arr){
+           arr.addEventListener('click', function(){
+               var atual = get.item('.toogleshow'),
+               target = get.item("#"+this.dataset.id),
+               next = null;
+               if(atual != target){
+                  next = target;
+               }
+               if(atual!=null){
+                   app.removeToogle(atual);
+               }
+               if(next!=null){
+                   app.addToogle(next);
+               }
+           });
+        });
     }
 }
 app.init();
